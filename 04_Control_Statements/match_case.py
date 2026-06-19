@@ -1,1 +1,0 @@
-"""Match/case example."""
