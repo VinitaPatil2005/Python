@@ -178,7 +178,7 @@ user = User("Vinita")
 
 print(user.username)
 
-# user.username = "Rahul"   ❌ Error
+# user.username = "Rahul"   - Error
 
 
 # =========================================================
@@ -186,15 +186,12 @@ print(user.username)
 # =========================================================
 
 """
-✔ Less code
+- Less code
+- Automatic __init__()
+- Automatic __repr__()
+- Automatic __eq__()
+- Easy to read
 
-✔ Automatic __init__()
-
-✔ Automatic __repr__()
-
-✔ Automatic __eq__()
-
-✔ Easy to read
 """
 
 
@@ -271,52 +268,6 @@ print("\n========== BOOK ==========")
 
 print(book)
 
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Import
-
-from dataclasses import dataclass
-
-------------------------
-
-Decorator
-
-@dataclass
-
-------------------------
-
-Default Value
-
-price: int = 100
-
-------------------------
-
-field()
-
-field(default=0)
-
-------------------------
-
-default_factory
-
-field(default_factory=list)
-
-------------------------
-
-__post_init__()
-
-Runs after __init__()
-
-------------------------
-
-frozen=True
-
-Immutable Object
-"""
 
 # =========================================================
 # END OF FILE

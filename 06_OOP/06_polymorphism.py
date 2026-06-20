@@ -188,13 +188,10 @@ for payment in payments:
 # =========================================================
 
 """
-✔ Code Reusability
-
-✔ Easy Extension
-
-✔ Cleaner Code
-
-✔ Flexibility
+- Code Reusability
+- Easy Extension
+- Cleaner Code
+- Flexibility
 """
 
 
@@ -297,46 +294,6 @@ for shape in shapes:
 
     print(shape.area())
 
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Polymorphism
-
-One Interface
-
-Many Forms
-
------------------------
-
-Method Overriding
-
-Child changes parent method
-
------------------------
-
-Duck Typing
-
-Checks behavior
-
------------------------
-
-Operator Overloading
-
-+  *  ==
-
-Different behavior
-
------------------------
-
-Example
-
-Dog.sound()
-
-Cat.sound()
-"""
 
 # =========================================================
 # END OF FILE

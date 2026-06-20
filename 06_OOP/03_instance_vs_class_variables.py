@@ -174,21 +174,17 @@ print(phone.brand)
 """
 Instance Variable
 
-✔ Belongs to object
-
-✔ Different values
-
-✔ Created using self
+- Belongs to object
+- Different values
+- Created using self
 
 ----------------------------
 
 Class Variable
 
-✔ Belongs to class
-
-✔ Shared by all objects
-
-✔ Created directly inside class
+- Belongs to class
+- Shared by all objects
+- Created directly inside class
 """
 
 
@@ -296,45 +292,6 @@ print()
 print(account2.holder)
 print(account2.balance)
 print(account2.bank_name)
-
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Instance Variable
-
-self.name
-
-------------------------
-
-Class Variable
-
-class Student:
-
-    college = "ABC"
-
-------------------------
-
-Access
-
-object.variable
-
-ClassName.variable
-
-------------------------
-
-Shared
-
-Class Variable
-
-------------------------
-
-Unique
-
-Instance Variable
-"""
 
 # =========================================================
 # END OF FILE

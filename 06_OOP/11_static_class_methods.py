@@ -307,41 +307,6 @@ Student.school_name()
 
 Student.welcome()
 
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Instance Method
-
-def show(self):
-
-------------------------
-
-Class Method
-
-@classmethod
-
-def show(cls):
-
-------------------------
-
-Static Method
-
-@staticmethod
-
-def show():
-
-------------------------
-
-Alternative Constructor
-
-@classmethod
-
-return cls(...)
-"""
-
 # =========================================================
 # END OF FILE
 # =========================================================

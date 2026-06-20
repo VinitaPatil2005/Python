@@ -12,10 +12,10 @@ of another class (parent class).
 
 Advantages
 ----------
-✔ Code Reusability
-✔ Easy Maintenance
-✔ Less Code Duplication
-✔ Extensibility
+- Code Reusability
+- Easy Maintenance
+- Less Code Duplication
+- Extensibility
 
 Syntax
 
@@ -340,49 +340,6 @@ car = Car()
 car.start()
 
 car.drive()
-
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Inheritance
-
-class Child(Parent)
-
-------------------------
-
-super()
-
-Calls parent constructor
-
-------------------------
-
-Method Overriding
-
-Child redefines method
-
-------------------------
-
-MRO
-
-ClassName.mro()
-
-------------------------
-
-Types
-
-Single
-
-Multilevel
-
-Multiple
-
-Hierarchical
-
-Hybrid
-"""
 
 # =========================================================
 # END OF FILE

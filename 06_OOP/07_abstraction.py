@@ -39,7 +39,7 @@ class Animal(ABC):
         pass
 
 
-# animal = Animal()   ❌ Error
+# animal = Animal()   - Error
 
 
 # =========================================================
@@ -134,13 +134,10 @@ for payment in payments:
 # =========================================================
 
 """
-✔ Hides unnecessary details
-
-✔ Improves security
-
-✔ Makes code cleaner
-
-✔ Forces child classes to implement methods
+- Hides unnecessary details
+- Improves security
+- Makes code cleaner
+- Forces child classes to implement methods
 """
 
 
@@ -252,43 +249,6 @@ circle = Circle(7)
 print("\nRectangle Area :", rectangle.area())
 print("Circle Area    :", round(circle.area(), 2))
 
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Import
-
-from abc import ABC, abstractmethod
-
-----------------------------
-
-Abstract Class
-
-class Demo(ABC):
-
-----------------------------
-
-Abstract Method
-
-@abstractmethod
-
-def show(self):
-    pass
-
-----------------------------
-
-Child Class
-
-Must implement all abstract methods.
-
-----------------------------
-
-Cannot Create Object
-
-obj = Demo() ❌
-"""
 
 # =========================================================
 # END OF FILE

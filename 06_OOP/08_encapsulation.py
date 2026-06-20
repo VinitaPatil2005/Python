@@ -87,7 +87,7 @@ account = BankAccount()
 
 account.show_balance()
 
-# print(account.__balance)   ❌ Error
+# print(account.__balance)   - Error
 
 
 # =========================================================
@@ -183,13 +183,10 @@ print(circle.area)
 # =========================================================
 
 """
-✔ Data Security
-
-✔ Better Control
-
-✔ Easy Maintenance
-
-✔ Prevents Invalid Data
+- Data Security
+- Better Control
+- Easy Maintenance
+- Prevents Invalid Data
 """
 
 
@@ -281,46 +278,6 @@ atm.withdraw(2000)
 
 atm.balance()
 
-
-# =========================================================
-# Cheat Sheet
-# =========================================================
-
-"""
-Public
-
-self.name
-
-------------------------
-
-Protected
-
-self._name
-
-------------------------
-
-Private
-
-self.__name
-
-------------------------
-
-Getter
-
-get_value()
-
-------------------------
-
-Setter
-
-set_value()
-
-------------------------
-
-Property
-
-@property
-"""
 
 # =========================================================
 # END OF FILE
